@@ -17,7 +17,7 @@ public class first
         main_frame.add(right_input);
         right_input.setVisible(false);
 
-        JLabel wrong_input = new JLabel("Enter an integer");
+        JLabel wrong_input = new JLabel("Please enter an integer");
         wrong_input.setBounds(450, 250, 150, 25);
         main_frame.add(wrong_input);
         wrong_input.setVisible(false);
