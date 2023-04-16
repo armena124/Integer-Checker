@@ -17,7 +17,7 @@ public class first
         main_frame.add(right_input);
         right_input.setVisible(false);
 
-        JLabel wrong_input = new JLabel("Please enter an integer");
+        JLabel wrong_input = new JLabel("Please Enter an integer");
         wrong_input.setBounds(450, 250, 150, 25);
         main_frame.add(wrong_input);
         wrong_input.setVisible(false);
@@ -32,11 +32,11 @@ public class first
         {
             public void actionPerformed(ActionEvent e)
             {
-                String user_num_string = user_input.getText(); 
+                String user_string = user_input.getText(); 
                 try
                 {
-                    int user_num_int = Integer.parseInt(user_num_string); 
-                    right_input.setText("It is an integer: " + user_num_int);
+                    int user_int = Integer.parseInt(user_string); 
+                    right_input.setText("It is an integer: " + user_int);
                     wrong_input.setVisible(false);
                     right_input.setVisible(true);
                 }
